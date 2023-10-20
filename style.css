@@ -1,0 +1,101 @@
+/* Reset some default styles */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  box-shadow: 0px 5px #cfcfcf;
+}
+
+nav li {
+  margin: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: cursive;
+  text-align: justify;
+  margin: 30px;
+}
+
+.experience {
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.certifications {
+  padding: 20px;
+}
+
+.positions {
+  padding: 20px;
+}
+
+.contact {
+  padding: 20px;
+}
+
+.centered-content {
+  text-align: center;
+}
+
+.centered-content a {
+  display: inline-block;
+  text-decoration: none;
+  color: #0077b5;
+}
+
+.centered-content a i {
+  font-size: 24px;
+  margin-right: 5px;
+}
